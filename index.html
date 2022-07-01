@@ -39,13 +39,14 @@
       <a href="./index.html" class="logo">
         <img src="./assets/images/logo.png" alt="Itami logo" style="height: 25%; width: 25%;">
       </a>
+    
+      <button class="search-btn" style="color: rgb(255, 255, 255); border: 2cm;">
+        <ion-icon name="search-outline" style="font-size: 20px;"></ion-icon>
+      </button>
 
       <div class="header-actions">
 
-        <button class="search-btn">
-          <ion-icon name="search-outline"></ion-icon>
-        </button>
-
+       
         <div class="lang-wrapper">
           <label for="language">
             <ion-icon name="globe-outline"></ion-icon>
@@ -59,8 +60,6 @@
           </select>
         </div>
 
-        <button class="btn btn-primary">Sign in</button>
-
       </div>
 
       <button class="menu-open-btn" data-menu-open-btn>
@@ -72,7 +71,7 @@
         <div class="navbar-top">
 
           <a href="./index.html" class="logo">
-            <img src="./assets/images/logo.svg" alt="Itami logo">
+            <img src="./assets/images/logo.png" alt="Itami logo" style="height: 25%; width: 25%;">
           </a>
 
           <button class="menu-close-btn" data-menu-close-btn>
@@ -99,7 +98,7 @@
             <a href="#" class="navbar-link">Web Series</a>
           </li>
 
-        
+
         </ul>
 
         <ul class="navbar-social-list">
@@ -157,18 +156,23 @@
 
           <div class="hero-content">
 
-            <b><p style="color: red; size: 80px; font-size: xx-large; 
+            <b>
+              <p style="color: red; size: 80px; font-size: xx-large; 
              text-shadow: -1px 1px 0 rgb(0, 0, 0),
               1px 1px 0 rgb(2, 2, 2),
              1px -1px 0 rgb(0, 0, 0),
-            -1px -1px 0 rgb(7, 7, 7); ">Itami</p></b>
-            <b><p style="color: rgb(10, 10, 10); size: 80px; font-size: xx-large;  text-shadow: -1px 1px 0 rgb(252, 249, 249),
+            -1px -1px 0 rgb(7, 7, 7); ">Itami</p>
+            </b>
+            <b>
+              <p style="color: rgb(10, 10, 10); size: 80px; font-size: xx-large;  text-shadow: -1px 1px 0 rgb(252, 249, 249),
               1px 1px 0 rgb(253, 252, 252),
              1px -1px 0 rgb(253, 252, 252),
-            -1px -1px 0 rgb(253, 252, 252);">Provides</p></b>
+            -1px -1px 0 rgb(253, 252, 252);">Provides</p>
+            </b>
 
             <h1 class="h1 hero-title">
-              Unlimited <strong style="color: red;">Movie</strong>,Web <strong style="color: red;">series</strong>,Tv Shows & More.
+              Unlimited <strong style="color: red;">Movie</strong>,Web <strong style="color: red;">series</strong>,Tv
+              Shows & More.
             </h1>
 
             <div class="meta-wrapper">
@@ -183,19 +187,19 @@
                 <p style="color: rgb(0, 0, 0);  text-shadow: -1px 1px 0 rgb(255, 255, 255),
                  1px 1px 0 rgb(255, 255, 255),
                1px -1px 0 rgb(255, 255, 255),
-              -1px -1px 0 rgb(255, 255, 255);">Romance,  sci-fi,</p>
+              -1px -1px 0 rgb(255, 255, 255);">Romance, sci-fi,</p>
 
                 <p style="color: rgb(0, 0, 0);  text-shadow: -1px 1px 0 rgb(255, 248, 248),
                 1px 1px 0 rgb(255, 255, 255),
                1px -1px 0 rgb(255, 255, 255),
-              -1px -1px 0 rgb(255, 255, 255);">Comedy,  Action</p>
-              </div>
-
+              -1px -1px 0 rgb(255, 255, 255);">Comedy, Action</p>
               </div>
 
             </div>
 
           </div>
+
+        </div>
 
         </div>
       </section>
@@ -219,7 +223,7 @@
               <h2 class="h2 section-title">Popular Movies</h2>
             </div>
 
-          <!-- <ul class="filter-list">
+            <!-- <ul class="filter-list">
 
               <li>
                 <button class="filter-btn">Movies</button>
@@ -353,8 +357,7 @@
 
                 <a href="./movie-details.html">
                   <figure class="card-banner">
-                    <img src="./assets/images/Shazam.jpg"
-                      alt="Shazam! Mocvie postar">
+                    <img src="./assets/images/Shazam.jpg" alt="Shazam! Mocvie postar">
                   </figure>
                 </a>
 
@@ -406,7 +409,7 @@
               <img src="./assets/images/lp.jpg" alt="HD 4k resolution! only $3.99">
             </figure>
 
-              <ion-icon name="download-outline"></ion-icon>
+            <ion-icon name="download-outline"></ion-icon>
             </a>
           </div>
 
@@ -433,7 +436,7 @@
                     <h3 class="h3 card-title">4K Quality.</h3>
 
                     <p class="card-text">
-                      
+
                     </p>
                   </div>
 
@@ -451,7 +454,7 @@
                     <h3 class="h3 card-title">Watch Everywhere.</h3>
 
                     <p class="card-text">
-                      
+
                     </p>
                   </div>
 
@@ -996,139 +999,140 @@
 
 
 
-  <!-- 
+      <!-- 
     - #FOOTER
   -->
 
-  <footer class="footer">
+      <footer class="footer">
 
-    <div class="footer-top">
-      <div class="container">
+        <div class="footer-top">
+          <div class="container">
 
-        <div class="footer-brand-wrapper">
+            <div class="footer-brand-wrapper">
 
-        
-          <ul class="footer-list">
 
-            <li>
-              <a href="./index.html" class="footer-link">Home</a>
-            </li>
+              <ul class="footer-list">
 
-            <li>
-              <a href="#" class="footer-link">Movie</a>
-            </li>
+                <li>
+                  <a href="./index.html" class="footer-link">Home</a>
+                </li>
 
-            <li>
-              <a href="#" class="footer-link">TV Show</a>
-            </li>
+                <li>
+                  <a href="#" class="footer-link">Movie</a>
+                </li>
 
-            <li>
-              <a href="#" class="footer-link">Web Series</a>
-            </li>
+                <li>
+                  <a href="#" class="footer-link">TV Show</a>
+                </li>
 
-          
+                <li>
+                  <a href="#" class="footer-link">Web Series</a>
+                </li>
 
-          </ul>
 
+
+              </ul>
+
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="quicklink-wrapper">
+
+              <ul class="quicklink-list">
+
+                <li>
+                  <a href="#" class="quicklink-link">Faq</a>
+                </li>
+
+                <li>
+                  <a href="#" class="quicklink-link">Help center</a>
+                </li>
+
+                <li>
+                  <a href="#" class="quicklink-link">Terms of use</a>
+                </li>
+
+                <li>
+                  <a href="#" class="quicklink-link">Privacy</a>
+                </li>
+
+              </ul>
+
+              <ul class="social-list">
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-pinterest"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
         </div>
 
-        <div class="divider"></div>
+        <div class="footer-bottom">
+          <div class="container">
 
-        <div class="quicklink-wrapper">
+            <p class="copyright">
+              &copy; 2022 <a href="#">codewithsadee</a>. All Rights Reserved
+            </p>
 
-          <ul class="quicklink-list">
+            <img src="./assets/images/footer-bottom-img.png" alt="Online banking companies logo"
+              class="footer-bottom-img">
 
-            <li>
-              <a href="#" class="quicklink-link">Faq</a>
-            </li>
-
-            <li>
-              <a href="#" class="quicklink-link">Help center</a>
-            </li>
-
-            <li>
-              <a href="#" class="quicklink-link">Terms of use</a>
-            </li>
-
-            <li>
-              <a href="#" class="quicklink-link">Privacy</a>
-            </li>
-
-          </ul>
-
-          <ul class="social-list">
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-pinterest"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
-
+          </div>
         </div>
 
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div class="container">
-
-        <p class="copyright">
-          &copy; 2022 <a href="#">codewithsadee</a>. All Rights Reserved
-        </p>
-
-        <img src="./assets/images/footer-bottom-img.png" alt="Online banking companies logo" class="footer-bottom-img">
-
-      </div>
-    </div>
-
-  </footer>
+      </footer>
 
 
 
 
 
-  <!-- 
+      <!-- 
     - #GO TO TOP
   -->
 
-  <a href="#top" class="go-top" data-go-top>
-    <ion-icon name="chevron-up"></ion-icon>
-  </a>
+      <a href="#top" class="go-top" data-go-top>
+        <ion-icon name="chevron-up"></ion-icon>
+      </a>
 
 
 
 
 
-  <!-- 
+      <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+      <script src="./assets/js/script.js"></script>
 
-  <!-- 
+      <!-- 
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
